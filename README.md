@@ -11,3 +11,4 @@ This project demonstrates the following skills:
 - Using images in HTML
 - Using different sized headers in HTML
 - Using unordered and ordered lists in HTML
+- Using paragraphs in HTML
