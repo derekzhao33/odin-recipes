@@ -8,26 +8,23 @@ h1 {
   text-align: center;
 }
 
-.recipes {
-  text-align: center;
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-
 img {
   display: block;
   width: 500px;
 }
 
 .recipe-container {
+  width: min-content;
+}
+
+.main-container, 
+.recipe-container {
   background-color: white;
   padding: 30px;
-  width: min-content;
   margin: auto;
 }
 
-.recipe-page {
+body {
   background-color: #FBE8DC;
 }
 
@@ -41,4 +38,15 @@ a {
 h2 {
   font-family: "Trebuchet MS";
   color: #8B4513;
+}
+
+h1 {
+  text-align: center;
+}
+
+.recipes {
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
