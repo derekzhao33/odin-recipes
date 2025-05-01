@@ -1,12 +1,44 @@
+.recipes-header, 
 h1 {
   font-family: "Trebuchet MS";
-  font-size: 25px;
+  font-size: 35px;
+}
+
+.recipes-header {
   text-align: center;
 }
 
-ul {
+.recipes {
   text-align: center;
   list-style: none;
   margin: 0px;
   padding: 0px;
+}
+
+img {
+  display: block;
+  width: 500px;
+}
+
+.recipe-container {
+  background-color: white;
+  padding: 30px;
+  width: min-content;
+  margin: auto;
+}
+
+.recipe-page {
+  background-color: #FBE8DC;
+}
+
+p, 
+li,
+a {
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+h2 {
+  font-family: "Trebuchet MS";
+  color: #8B4513;
 }
