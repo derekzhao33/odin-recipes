@@ -22,6 +22,8 @@ img {
   background-color: white;
   padding: 30px;
   margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 body {
@@ -29,8 +31,8 @@ body {
 }
 
 .main-container {
-  width: fit-content;
-  height: max-content;
+  width: 500px;
+  height: 800px;
 }
 
 p, 
