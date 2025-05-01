@@ -28,6 +28,11 @@ body {
   background-color: #FBE8DC;
 }
 
+.main-container {
+  width: fit-content;
+  height: max-content;
+}
+
 p, 
 li,
 a {
