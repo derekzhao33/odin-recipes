@@ -1,11 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 .recipes-header, 
 h1 {
   font-family: "Trebuchet MS";
   font-size: 35px;
-}
-
-.recipes-header {
-  text-align: center;
 }
 
 img {
@@ -24,6 +22,12 @@ img {
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+
+.main-body {
+  background-color: white;
+  margin: 0;
 }
 
 body {
@@ -59,5 +63,37 @@ h1 {
 }
 
 a {
-  color: #B25C3B;
+  text-decoration: none;
+  color: #8B4513;
 }
+
+.header {
+  background-color: black;
+  padding: 8px 20px;
+}
+
+.header,
+.recipes {
+  display: flex;
+  align-items: center;
+}
+
+.recipes {
+  gap: 20px;
+}
+
+.recipes-logo {
+  margin-left: 0px;
+  margin-right: auto;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  font-family: Lato;
+}
+
+.button {
+  color: white;
+  font-family: Lato;
+}
+
