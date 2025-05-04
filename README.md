@@ -18,3 +18,4 @@ This project demonstrates the following skills:
 - Linking external CSS files to HTML
 - Organizing a multi-page website
 - Implementing responsive design principles
+- Implementing navigation bars using flex display
